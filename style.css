@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Cormorant Infant", serif;
+  color: #fff;
+}
+
+p {
+  color: #fff;
+}
+
+body {
+  background-color: #000;
+}
+
+.section1 {
+  background-image: url(images/главная\ фон.png);
+  height: 1100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.header-wrapper {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1800px;
+}
+
+ul {
+  display: flex;
+  gap: 40px;
+}
+li {
+  list-style-type: none;
+}
+li a {
+  color: #fff;
+  font-size: 30px;
+}
+
+.logo a {
+  font-size: 60px;
+  color: #fff;
+}
+
+.section-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 940px;
+}
+
+.section-inner h1 {
+  font-size: 120px;
+  font-weight: 100;
+  color: #fff;
+}
+
+.section2 {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper2 h1 {
+  text-align: center;
+  margin: 100px 0px;
+  font-weight: 100;
+  font-size: 60px;
+}
+
+.food-card-flex1 {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card img {
+  width: 350px;
+}
+
+.card p {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.section3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.menu-flex {
+  display: flex;
+}
+
+.middle-card {
+  background-image: url(images/подложка\ меню\ страница\ 1.png);
+  width: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.middle-card h4 {
+  font-size: 28px;
+  font-weight: 200;
+}
+
+.middle-card h3 {
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.card-discription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+}
+
+.menu-flex .card p {
+  margin-top: 0;
+  color: #000;
+  font-weight: 600;
+}
+
+.section4 {
+  display: flex;
+  justify-content: center;
+  margin: 200px 0px;
+}
+
+.res-name {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.res-name p {
+  opacity: 56%;
+  font-size: 28px;
+}
+
+.res-name h1 {
+  font-size: 60px;
+  font-weight: 100;
+}
+
+.wrapper4 p {
+  font-size: 28px;
+  width: 900px;
+  text-align: center;
+}
+
+.section5 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+.card-sec5-flex {
+  display: flex;
+}
+
+.card-sec5 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.card1,
+.card2 {
+  height: 550px;
+}
+
+.card-sec5-discription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.card-sec5-discription p {
+  color: #000;
+  font-size: 60px;
+}
+
+.footer {
+  display: flex;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.footer-text {
+  font-size: 35px;
+}
+
+.footer-logo {
+  font-size: 50px;
+}
+
+.footer-text p {
+  margin-top: 50px;
+  font-size: 26px;
+}

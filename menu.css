@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Cormorant Infant", serif;
+  color: #fff;
+}
+
+p {
+  color: #fff;
+}
+
+body {
+  background-color: #000;
+}
+
+.section1 {
+  background-image: url(images/главная\ фон.png);
+  height: 1100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.header-wrapper {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1800px;
+}
+
+ul {
+  display: flex;
+  gap: 40px;
+}
+li {
+  list-style-type: none;
+}
+li a {
+  color: #fff;
+  font-size: 30px;
+}
+
+.logo a {
+  font-size: 60px;
+  color: #fff;
+}
+
+.section-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 940px;
+}
+
+.section-inner h1 {
+  font-size: 120px;
+  font-weight: 100;
+  color: #fff;
+}
+/* ++++++++++++++++++++++++++++++++++++++ */
+.section2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+.flex-menu-wrapper {
+  width: 100%;
+}
+
+.flex-menu {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.card {
+  text-align: center;
+}
+
+.card p {
+  font-size: 30px;
+  height: 80px;
+}
+
+.card h5 {
+  font-size: 30px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+.card img {
+  width: 450px;
+  height: 470px;
+}
+
+.wrapper2 h1 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 200;
+  margin: 100px 0px;
+}
+/* ++++++++++++++++++++++++++++++++++++++ */
+.footer {
+  display: flex;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.footer-text {
+  font-size: 35px;
+}
+
+.footer-logo {
+  font-size: 50px;
+}
+
+.footer-text p {
+  margin-top: 50px;
+  font-size: 26px;
+}

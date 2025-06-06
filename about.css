@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Cormorant Infant", serif;
+  color: #fff;
+}
+
+p {
+  color: #fff;
+}
+
+body {
+  background-color: #000;
+}
+
+.section1 {
+  background-image: url(images/главная\ фон.png);
+  height: 1100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.header-wrapper {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1800px;
+}
+
+ul {
+  display: flex;
+  gap: 40px;
+}
+li {
+  list-style-type: none;
+}
+li a {
+  color: #fff;
+  font-size: 30px;
+}
+
+.logo a {
+  font-size: 60px;
+  color: #fff;
+}
+
+.section-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 940px;
+}
+
+.section-inner h1 {
+  font-size: 120px;
+  font-weight: 100;
+  color: #fff;
+}
+
+.section2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+.advantages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.all-know {
+  text-align: center;
+  width: 800px;
+  font-size: 30px;
+  margin: 70px 0px;
+}
+
+hr {
+  background-color: #fff;
+}
+
+.advantages h1 {
+  text-align: center;
+  font-weight: 200;
+  font-size: 60px;
+}
+
+.advantages-flex {
+  display: flex;
+  margin: 100px 0px;
+}
+
+.advantage-card {
+  width: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.advantage-card h2 {
+  font-weight: 200;
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+.advantage-card p {
+  width: 250px;
+  font-size: 26px;
+}
+
+.footer {
+  display: flex;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.footer-text {
+  font-size: 35px;
+}
+
+.footer-logo {
+  font-size: 50px;
+}
+
+.footer-text p {
+  margin-top: 50px;
+  font-size: 26px;
+}
